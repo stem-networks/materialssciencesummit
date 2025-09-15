@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const MediaCollaborators = () => {
-  const sliderRef = useRef<HTMLUListElement | null>(null);
+    const sliderRef = useRef<HTMLUListElement | null>(null);
     const animationFrameId = useRef<number | null>(null);
     let scrollPosition = 0;
 
@@ -82,43 +82,49 @@ const MediaCollaborators = () => {
                         {/* Original Image Slides (without duplication) */}
                         <li className="slideimg">
                             <Link href="http://cightech.com/" title="Cightech" target="_blank">
-                                <Image src="/images/images/cightech.webp" alt="Cightech" title="Cightech" width={180} height={100} />
+                                <Image src="/images/media-collaborators/cightech.webp" alt="Cightech" title="Cightech" width={180} height={100} />
                             </Link>
                         </li>
 
                         <li className="slideimg">
                             <Link href="https://eventsnotification.com/" title="Events Notification" target="_blank">
-                                <Image src="/images/images/events_notification.webp" alt="Events Notification" title="Events Notification" width={180} height={100} />
+                                <Image src="/images/media-collaborators/events_notification.webp" alt="Events Notification" title="Events Notification" width={180} height={100} />
                             </Link>
                         </li>
 
                         <li className="slideimg">
                             <Link href="https://conferencenext.com/" title="Conference Next" target="_blank">
-                                <Image src="/images/images/conference_next.webp" alt="Conference Next" title="Conference Next" width={180} height={100} />
+                                <Image src="/images/media-collaborators/conference_next.webp" alt="Conference Next" title="Conference Next" width={180} height={100} />
                             </Link>
                         </li>
 
                         <li className="slideimg">
                             <Link href="https://internationalconferencealerts.com/" title="International Conference Alerts" target="_blank">
-                                <Image src="/images/images/intern_conf_alerts.webp" alt="International Conference Alerts" title="International Conference Alerts" width={180} height={100}/>
+                                <Image src="/images/media-collaborators/intern_conf_alerts.webp" alt="International Conference Alerts" title="International Conference Alerts" width={180} height={100} />
                             </Link>
                         </li>
 
                         <li className="slideimg">
                             <Link href="https://kindcongress.com/event/msnc-2026/" title="Kind Congress" target="_blank">
-                                <Image src="/images/images/kind_cong.webp" alt="Kind Congress" title="Kind Congress" width={180} height={100} />
+                                <Image src="/images/media-collaborators/kind_cong.webp" alt="Kind Congress" title="Kind Congress" width={180} height={100} />
                             </Link>
                         </li>
 
                         <li className="slideimg">
                             <Link href="https://www.conferencealerts.in/events/1666959" title="Conference Alerts" target="_blank">
-                                <Image src="/images/images/conference_alerts.webp" alt="Conference Alerts" title="Conference Alerts" width={180} height={100} />
+                                <Image src="/images/media-collaborators/conference_alerts.webp" alt="Conference Alerts" title="Conference Alerts" width={180} height={100} />
                             </Link>
                         </li>
 
                         <li className="slideimg">
                             <Link href="https://www.iconf.org/conference/msnc-2026" title="i-Conference Global" target="_blank">
-                                <Image src="/images/images/i_conference.webp" alt="i-Conference Global" title="i-Conference Global" width={180} height={100} />
+                                <Image src="/images/media-collaborators/i_conference.webp" alt="i-Conference Global" title="i-Conference Global" width={180} height={100} />
+                            </Link>
+                        </li>
+
+                        <li className="slideimg">
+                            <Link href="https://www.conferencelists.org/event/materials-science-conference-msnc-2026/" title="Conference List" target="_blank">
+                                <Image src="/images/media-collaborators/conference_list.webp" alt="Conference List" title="Conference List" width={180} height={100} />
                             </Link>
                         </li>
                     </ul>
